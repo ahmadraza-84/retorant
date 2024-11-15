@@ -1,0 +1,380 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.icon{
+    background-color: #FEA116;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    position:fixed;
+    left: 95%;
+    bottom: 20px;
+
+}
+.header{
+    width: 100%;
+    height: 120vh;
+    background-image: url('image/1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.overlay{ 
+    width: 100%;
+    height:120vh;
+    background-color:rgba(1, 4, 26, 0.9);
+    
+}
+.nav-1{
+    color: #FEA116;
+    position: relative;
+    top:-114vh;
+    font-weight:bold;
+    font-size: 2em;
+    left: 5vh;
+
+}
+.nav-1:hover{
+    color: #FEA116;
+    list-style: none;
+    text-decoration: none;
+}
+.link-home{
+list-style: none;
+text-decoration: none;
+margin: 15px;
+color: rgb(255, 255, 255);
+ position: relative;
+ top: -114vh;
+}
+.link-home:hover{
+    text-decoration: none;
+    list-style: none;
+    color: #FEA116;
+}
+.btn{
+    background-color:#FEA116;
+    padding: 10px 33px;
+    color: white;
+    position: relative;
+    top: -116vh;
+}.btn:hover{
+    color: white;
+}
+.dropdown-menu{
+     background-color: #fff;
+    position: relative;
+    top: -116vh;
+}
+/*navbar end*/
+
+
+/*second section*/
+.image{
+    width:100%;
+    height:100%;
+    animation: rotate 250s linear infinite;
+    position: relative;
+    top: -110vh;
+    left: 2vh;
+    overflow: hidden;
+}.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(3620deg);
+    }
+}
+.text{
+    margin-top: -86vh;
+    color: white;
+}
+.btn-1{
+background-color: #FEA116;
+padding: 12px 34px;
+border-radius: 5px;
+color: white;
+font-weight: normal;
+}
+.btn-1:hover{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+ 
+ /*second end*/
+ 
+ /*services*/
+
+ .card{
+    margin-top: -80vh;
+    box-shadow:4px 4px 11px rgb(202, 202, 202);
+ }
+ .card-body{
+    padding: 30px;
+    background-color: white;
+     
+ }
+ .card-body:hover{
+    color: #fff;
+    background-color: #FEA116;
+ }
+ .icon-1{
+     position: relative;
+     left: 6vh;
+     top: 1vh;
+     font-size: 3.5em;
+     color: #FEA116;
+ }
+  .icon-3{
+    background-color: #FEA116;
+    padding: 20px;
+    font-size: 3em;
+border-radius: 50%;
+  }
+  
+  
+  
+.card-title , .card-text{
+    position: relative;
+    left: 2vh;
+}
+ 
+ 
+ /* services*/
+ 
+ /* new image start*/
+ .left{
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: -10vh;
+ }
+ .img-1{
+    width: 80%;
+    border: none;
+    margin-left: 28vh;
+ }
+ .img-2{
+    width: 40%;
+    border: none;
+    margin-top: 14vh;
+    margin-left: 14vh;
+ }
+ .img-3{
+    width: 60%;
+    border: none;
+    margin-left: 38vh;
+ }
+ .img-4{
+    width: 70%;
+    margin-left: 14vh;
+    border: none;
+ }
+ .icon-2{
+    font-size:1em;
+    color: #FEA116;
+ }
+.btn-2{
+    background-color: #FEA116;
+    padding: 12px 34px;
+    color: black;
+    list-style: none;
+}
+.btn-2:hover{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.form{
+    background-color: rgb(4, 19, 48);
+    color: #fff;
+    margin-top: 10vh;
+     padding: 40px;
+     width: 100%;
+     overflow: hidden;
+}
+.input{
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+}
+.form1{
+    margin-left: 65vh;
+}
+.btn-4{
+    background-color: #FEA116;
+    padding: 10px 215px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-1{
+    background-color: #ffffff;
+    box-shadow: 2px 5px 10px rgb(161, 159, 159);
+    padding: 12px 10px;
+    margin-left: 2vh;
+    border-radius: 8px;
+}
+.img-box{
+    overflow: hidden;
+    transition: 3s;
+    width: 80%;
+    margin-left: 2vh;
+    height: 30vh;
+}
+.img-8{
+    border-radius: 50%; 
+    border: none;  
+    width: 70%;
+    margin-left: 5vh;
+    overflow: hidden;
+    transition: 2s;
+    overflow: hidden;
+    margin-top: 2vh;
+} 
+.img-8:hover{
+    transform: scale(1.2);
+}
+.card-title1{
+    margin-left: 14vh;
+}
+.card-text1{
+    margin-left: 14vh;
+}
+.icon-5{
+margin-left: 70px;
+}
+.icon-6{
+color: #fff;
+    background-color: #FEA116;
+    padding: 10px;
+     border-radius:50px 50px 1px 1px; 
+}
+.card2{
+     background-color: #fff;
+     box-shadow: 3px 5px 10px rgb(128, 128, 128);
+     padding: 10px;
+     margin-left:30vh;   
+     transition: 1s;  
+}
+.card2:hover{
+    background-color: #FEA116;
+    color: #000000;
+}
+.card-text2{
+margin-top: 5vh;
+font-size: 1em;
+padding: 10px;
+}
+.img-9{
+    width: 25%;
+    border-radius: 50%;
+    border: none;
+}
+.card-title2{
+    position:absolute;
+ left: 47vh;
+ 
+}
+.card3{
+    background-color: #FEA116;
+    padding: 10px;
+color: #fff;
+margin-left: 15vh;
+
+}
+.card-title3{
+    position:absolute;
+ left: 33vh;
+ 
+}
+.card4{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 3px 5px 10px rgb(128, 128, 128);
+    padding: 10px;
+color: #000000;
+margin-left:0vh;
+transition: 1S;
+
+}
+.card4:hover{
+    background-color: #FEA116;
+    color: #fff;
+}
+.card-title4{
+    position:absolute;
+ left: 18vh;
+ 
+}
+.conatiner11{
+    background-color:rgb(4,19,48);
+    height: 50vh;
+}
+.company{
+    color:#FEA116;
+    position:relative;
+    left: 30vh;
+    top: 8vh;
+    font-style: italic;
+  
+} 
+.opening{
+    color: #FEA116;
+position:relative;
+left:20vh;
+top: 8vh;
+font-style: italic;
+}
+
+
+  .Newsletters{
+    color:#FEA116;
+    top: 8vh;
+    font-style: italic;
+position:relative;
+left: 10vh;
+}
+.table{
+    margin-left: 10vh;
+     
+    margin-top: 5vh;
+}
+.list{
+    color: #ffffff;
+}
+.list1{
+    color: #ffffff;
+}
+.input1{
+    border:2px solid #FEA116;
+     height: 50px;
+     width: 42vh;
+}
+.button{
+    background-color: #FEA116;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    left: 28vh;
+     top: 25vh;
+     padding: 8px 12px;
+     border-radius: 8px;
+}
